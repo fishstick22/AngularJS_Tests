@@ -1,0 +1,24 @@
+<!doctype html>
+<html ng-app="project">
+  <head>
+    <link rel="stylesheet" href="http://angularjs.org/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/font-awesome.css"/>
+    <link rel="stylesheet" href="http://angularjs.org/css/docs.css"/>
+   
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.3/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.3/angular-resource.min.js">
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.3/angular-route.min.js">
+   </script>
+    <script src="https://cdn.firebase.com/js/client/2.0.4/firebase.js"></script>
+    <script src="https://cdn.firebase.com/libs/angularfire/0.9.0/angularfire.min.js"></script>
+    <script src="project.js"></script>
+    <script src="project-list.js"></script>
+  </head>
+  <body>
+     <div class="well ng-scope">
+        <h2>JavaScript Projects</h2>
+        <div ng-view></div>
+    </div>
+  </body>
+</html>
